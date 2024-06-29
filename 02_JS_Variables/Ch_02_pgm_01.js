@@ -4,7 +4,7 @@ var score
 
 //Adding the semicolon back
 
-// var score;
+var score;
 
 //Declaring two more variables
 
