@@ -234,3 +234,7 @@ var getGame = function () {
   };
   
   var game = getGame();
+
+//example code to put in console
+//   game.go("direction")
+//   game.go("south")
