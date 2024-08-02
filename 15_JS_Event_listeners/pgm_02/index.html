@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Code Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .key-info {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .key-details {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .key {
+            font-size: 18px;
+            color: #333;
+        }
+        .code {
+            font-size: 18px;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Keyboard Code Generator</h1>
+        <div class="key-info">
+            Press any key to see its details
+        </div>
+        <div class="key-details">
+            <div><span class="key">Key:</span> <span id="key-name" class="code">None</span></div>
+            <div><span class="key">Code:</span> <span id="key-code" class="code">None</span></div>
+        </div>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="Ch_15_pgm_02.js"></script>
+</body>
+</html>
